@@ -1,0 +1,26 @@
+CHANGELOG — SINGLE HOMEPAGE
+
+Selected former Version 02 as the sole final homepage and removed Version 01.
+- The selected homepage now lives directly in index.html; no redirect is used.
+- Removed version-switch UI/CSS and the version-query branch in JavaScript.
+- Both project pages use the accepted visual style directly and return to index.html.
+- Updated current documentation and regression targets; preserved visuals, assets, content and accessibility.
+
+Historical RC1 summary
+CHANGELOG — RC1
+2026-10-25
+
+主要变化
+- 原生HTML/CSS/JavaScript个人作品集：两版主页、两个独立可填写项目详情页，无框架、CDN或构建步骤。
+- 暖白editorial视觉、本地三字体与受控Hero拼贴，保留个人介绍和清楚的内容层级。
+- About notebook、细线装订与静态黑白灰摄影衍生像素猫；最终尺寸124/96/66px宽，前后遮挡明确。
+- 两个交错项目案例入口及ROLE/TYPE、YEAR、STACK字段；未知内容明示待填。
+- 六图Personal Visual Archive、两枚本地黑白线稿与原生图片查看器。
+- 统一160/220/360ms交互节奏、键盘focus、菜单、Esc、focus return与reduced motion。
+- 手机可读性与44px主要点击区、有限CSS清理、当前README与素材来源说明。
+- 所有网络照片继续明确为占位，不编造个人经历或项目成绩。
+
+RC1验收
+当前实现与已确认版本一致；最终验收没有修改网站源码、素材或视觉设计。
+发布状态：RELEASE READY。未执行部署或GitHub发布。
+运行：在editorial-homepage目录使用README的8766命令，浏览器打开http://127.0.0.1:8766/index.html。

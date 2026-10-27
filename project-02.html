@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pearl 的个人视觉档案：学生、R&B 音乐爱好者，记录个人介绍、作品与生活。">
+  <title>Project 02 — 智能体构建与验证流程 · Pearl</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="script.js" defer></script>
+</head>
+<body class="project-body variant-blue">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header project-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="index.html" data-home-link="" aria-label="Pearl 首页">Pearl.</a>
+      <button class="menu-button" type="button" aria-controls="main-nav" aria-expanded="false">菜单</button>
+      <nav class="site-nav" id="main-nav" aria-label="主导航">
+        <a class="nav-link" data-home-link="#projects" href="index.html#projects"><span class="nav-label" lang="en">Projects</span><span class="nav-caption">作品集</span></a>
+        <a class="nav-link" data-home-link="#archive" href="index.html#archive"><span class="nav-label" lang="en">Archive</span><span class="nav-caption">影像档案</span></a>
+        <a class="nav-link" data-home-link="#contact" href="index.html#contact"><span class="nav-label" lang="en">Contact</span><span class="nav-caption">联系</span></a>
+      </nav>
+    </div>
+  </header>
+  <main class="project-page wrap" id="main">
+    <nav class="breadcrumb" aria-label="页面位置"><a href="index.html" data-home-link="">Home</a><span>/</span><a href="index.html#projects" data-home-link="#projects">Projects</a><span>/</span><span>Project 02</span></nav>
+    <!-- 项目 02 独立页面：搜索方括号，逐项换成你的真实文字。 -->
+    <div class="detail-intro"><p class="detail-number">02</p><div><h1>智能体构建与验证流程</h1><p>探索从任务规划、草稿生成到验证门槛的智能体构建流程，让实现状态与验证证据可以被清楚追踪。</p></div></div>
+    <figure class="detail-cover"><img src="assets/project-02-cover.jpg" alt="项目 02 暂未有前端ui，以示意图占位" width="1600" height="1000" fetchpriority="high"><figcaption>PROJECT 02 / COVER · 暂未有前端ui，以示意图占位</figcaption></figure>
+    <dl class="detail-facts"><div><dt>YEAR / 时间</dt><dd>2026</dd></div><div><dt>ROLE / 我的职责</dt><dd>项目发起、需求与流程设计、AI 辅助开发协作、测试结果核查与迭代决策。</dd></div><div><dt>TOOLS / 工具与技术</dt><dd>Python · Docker · Git / GitHub · Codex · unittest · Ruff · Mypy · JSON 契约</dd></div><div><dt>CONTEXT / 项目类型</dt><dd>个人工程实践 / 智能体系统研究 / 持续开发中</dd></div></dl>
+
+    <section class="detail-section" aria-labelledby="brief-title"><h2 id="brief-title" lang="en">The brief.</h2><div><h3>背景与目标</h3><p>我希望理解智能体从任务描述到执行结果之间的工程过程，尤其关注工具调用、执行边界与失败处理。项目围绕可审查的构建流程展开，将需求、输入输出约定、执行条件和验证证据组织起来。</p><p>目标是形成能够逐步扩展的工程原型：每项能力具有明确边界，每次修改保留可复查的测试记录，执行与迭代依据清晰的条件推进。</p></div></section>
+
+    <section class="detail-section" aria-labelledby="process-title"><h2 id="process-title" lang="en">The process.</h2><div><ol class="process-list">
+      <li><p class="step-number">01 / DISCOVER</p><h3>观察与梳理</h3><p>梳理任务输入、执行配方、权限校验与结果输出之间的关系，明确哪些内容可以由模型提出，哪些动作需要经过固定规则与人工确认，并把失败处理纳入流程设计。</p></li>
+      <li><p class="step-number">02 / MAKE</p><h3>制作与尝试</h3><p>与 Codex 协作推进 Python 原型，采用结构化 JSON 契约描述请求和结果，使用 Docker 探索固定任务的隔离执行，并建立配套的回归测试与负向测试。</p></li>
+      <li><p class="step-number">03 / REFINE</p><h3>反馈与改进</h3><p>核对测试回执与失败原因，使用 unittest 检查行为，结合 Ruff 与 Mypy 检查代码规范和类型问题，持续修订错误传播、执行约束与审查材料，并通过 Git / GitHub 管理版本与变更。</p></li>
+    </ol><div class="detail-gallery">
+      <a href="assets/project-02-process-01.jpg" data-gallery data-caption="项目 02 / 过程图 01 · 暂未有前端ui，以示意图占位"><figure><img src="assets/project-02-process-01.jpg" alt="项目 02 过程图 01 暂未有前端ui，以示意图占位" width="1200" height="900" loading="lazy"><figcaption>过程图 01 / 暂未有前端ui，以示意图占位</figcaption></figure></a>
+      <a href="assets/project-02-process-02.jpg" data-gallery data-caption="项目 02 / 过程图 02 · 暂未有前端ui，以示意图占位"><figure><img src="assets/project-02-process-02.jpg" alt="项目 02 过程图 02 暂未有前端ui，以示意图占位" width="1200" height="900" loading="lazy"><figcaption>过程图 02 / 暂未有前端ui，以示意图占位</figcaption></figure></a>
+    </div></div></section>
+
+    <section class="detail-section" aria-labelledby="result-title"><h2 id="result-title" lang="en">The outcome.</h2><div><h3>最终成果</h3><p>已形成隔离执行原型、结构化结果与拒绝原因约定，以及配套测试和工程审查记录；固定数学任务已有真实 Docker 执行记录。项目仍在持续开发，后续将继续完善契约一致性、独立验证与可复现流程。</p><figure class="detail-wide"><img src="assets/project-02-result.jpg" alt="项目 02 暂未有前端ui，以示意图占位" width="1600" height="1000" loading="lazy"><figcaption class="placeholder-label">最终成果图 / 暂未有前端ui，以示意图占位</figcaption></figure></div></section>
+
+    <section class="detail-section" aria-labelledby="reflection-title"><h2 id="reflection-title" lang="en">What I learned.</h2><div><h3>复盘与下一步</h3><p>这个项目让我理解了如何把一个智能体想法拆解为明确的输入输出、执行条件与验证步骤。在与 Codex 协作的过程中，我逐渐学会阅读测试回执、追踪失败原因，并区分行为测试、代码规范检查与类型检查各自解决的问题。</p><p>目前，契约一致性、失败处理与独立复现仍需持续完善。下一步，我计划优先整理关键失败案例、补充可复现说明，并依据验证结果逐步扩展原型能力。</p></div></section>
+
+    <nav class="detail-navigation" aria-label="项目导航"><a class="text-link" href="index.html#projects" data-home-link="#projects">← 返回项目列表</a><a class="text-link" href="project-01.html" data-project-link>查看项目 01 <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav>
+  </main>
+  <footer class="project-footer"><div class="wrap"><p>© 2026 Pearl / Project 02</p><p>暂未有前端ui，以示意图占位</p></div></footer>
+  <dialog class="image-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head"><p id="dialog-title">Memory archive · 图片预览</p><button type="button" data-close aria-label="关闭图片查看器">关闭</button></div>
+    <img class="dialog-image" src="assets/travel.jpg" alt="暂未有前端ui，以示意图占位">
+    <div class="dialog-footer"><p class="dialog-caption">暂未有前端ui，以示意图占位</p><div class="dialog-controls"><span class="dialog-counter sr-only" aria-live="polite"></span><button type="button" data-previous aria-label="上一张">←</button><button type="button" data-next aria-label="下一张">→</button></div></div>
+  </dialog>
+</body>
+</html>
